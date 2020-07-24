@@ -1,0 +1,21 @@
+second commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: EC2 Default User <ec2-user@ip-172-31-49-35.ec2.internal>
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   app/controllers/tasks_controller.rb
+#	modified:   app/models/task.rb
+#	new file:   app/views/tasks/_form.html.erb
+#	modified:   app/views/tasks/edit.html.erb
+#	modified:   app/views/tasks/index.html.erb
+#	modified:   app/views/tasks/new.html.erb
+#	modified:   app/views/tasks/show.html.erb
+#	new file:   db/migrate/20200720055053_add_status_to_tasks.rb
+#	modified:   db/schema.rb
+#	new file:   second commit
+#
