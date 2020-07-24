@@ -1,10 +1,12 @@
 <%= form_with(model: @task, local: true) do |f| %>
 
-  <%= f.label :status, '題名' %>
-  <%= f.text_field :status %>
-
-  <%= f.label :content, '詳細' %>
-  <%= f.text_field :content %>
+<ul style="list-style:none">
+  <li><%= f.label :status, '件名（0字以上10字以内）' %></li>
+  <li><%= f.text_field :status %></li>
+  <br>
+  <li><%= f.label :content, '内容（0字以上255字以内）' %></li>
+  <li><%= f.text_field :content %></li>
+</ul>
 
   <%= f.submit '投稿' %>
 <% end %>
