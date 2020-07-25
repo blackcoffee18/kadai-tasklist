@@ -1,10 +1,10 @@
 <%= form_with(model: @task, local: true) do |f| %>
 
 <ul style="list-style:none">
-  <li><%= f.label :status, '件名（0字以上10字以内）' %></li>
+  <li><%= f.label :status, 'status（0字以上10字以内）' %></li>
   <li><%= f.text_field :status %></li>
   <br>
-  <li><%= f.label :content, '内容（0字以上255字以内）' %></li>
+  <li><%= f.label :content, 'content（0字以上255字以内）' %></li>
   <li><%= f.text_field :content %></li>
 </ul>
 
