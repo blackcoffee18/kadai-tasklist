@@ -22,7 +22,7 @@ class TasksController < ApplicationController
       flash[:success] = 'タスクが投稿されました'
       redirect_to @task
     else
-      flash[:danger] = '件名を0字以上10字以内、内容を0字以上255字以内で入力してください。'
+      flash[:danger] = 'タスクが投稿されませんでした'
       render :new
     end
   end
@@ -40,7 +40,7 @@ class TasksController < ApplicationController
       flash[:success] = 'タスクが編集されました'
       redirect_to @task
     else
-      flash.now[:danger] = '件名を0字以上10字以内、内容を0字以上255字以内で入力してください。'
+      flash.now[:danger] = 'タスクが投稿されませんでした'
       render :new
     end
   end
